@@ -1,0 +1,6 @@
+plasTeX>=2.1
+Jinja2>=2.11.2
+MarkupSafe>=1.1.1
+pip>=20.1.1
+setuptools>=47.3.1
+Unidecode>=0.4.21

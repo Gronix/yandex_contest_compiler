@@ -1,0 +1,83 @@
+{
+  "name": "$contest_name",
+  "timeControlType": "virtual",
+  "startTime": 0,
+  $duration
+  "problemNames": [
+    $problem_codes
+  ],
+  "problems": [
+    $problems
+  ],
+  "compilers": [
+    "python3_7_3"
+  ],
+  "checkers": [],
+  "registrationAllowance": "$registration",
+  "startingAllowed": true,
+  "showBlindResultsAfterContestEnd": true,
+  "contestType": "simple",
+  "monitorVisibility": "participants-after-start",
+  "monitorTimeFormat": "hours-minutes",
+  "reportSettings": {
+    "reportVisible": true,
+    "showTestNumber": true,
+    "testOnlySamples": false,
+    "stopOnFirstFail": true,
+    "stopOnSampleFail": false,
+    "stopOnFirstFailInTestSet": false,
+    "useAcNotOk": false,
+    "reportTokensCount": 100,
+    "useLightweightInterface": false,
+    "showUsedResources": "all",
+    "showVerdict": "all",
+    "showScore": "never",
+    "showInput": "never",
+    "showOutput": "never",
+    "showAnswer": "never",
+    "showStderr": "never",
+    "showCheckerOutput": "never",
+    "showPostprocessorOutput": "all"
+  },
+  "problemReportSettings": {},
+  "sourceSizeLimit": 262144,
+  "problemsSettings": {},
+  "monitorPlugin": "acm",
+  "maxProblemSubmissionsCount": 100,
+  "duplicateSubmissionsAllowed": false,
+  "submissionsCounterFilter": [],
+  "teamsAllowed": false,
+  "useReportTokens": false,
+  "tokenSettings": {
+    "reportVisible": true,
+    "showTestNumber": true,
+    "testOnlySamples": false,
+    "stopOnFirstFail": true,
+    "stopOnSampleFail": false,
+    "stopOnFirstFailInTestSet": false,
+    "useAcNotOk": false,
+    "reportTokensCount": 100,
+    "useLightweightInterface": false,
+    "showUsedResources": "never",
+    "showVerdict": "never",
+    "showScore": "never",
+    "showInput": "never",
+    "showOutput": "never",
+    "showAnswer": "never",
+    "showStderr": "never",
+    "showCheckerOutput": "never",
+    "showPostprocessorOutput": "all"
+  },
+  "allowUpsolving": true,
+  "upsolvingAllowance": "allowed",
+  "frontendVisibilities": {
+    "participants": true,
+    "standings": true,
+    "submits": true,
+    "messages": true,
+    "problems": true,
+    "allProblems": false,
+    "useSingleSubmitButton": false
+  },
+  "enterPageSettings": []
+}

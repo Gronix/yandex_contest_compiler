@@ -1,0 +1,39 @@
+{
+      "localizedNames": {
+        "ru": "$problem_title"
+      },
+      "author": "$author",
+      "invocationLimits": {
+        "timeLimitMillis": $limit_time,
+        "idlenessLimitMillis": 10000,
+        "memoryLimit": $limit_memory,
+        "outputLimit": 67108864
+      },
+      "testSets": $test_sets,
+      "perCompilerInvocationLimits": {},
+      "maxSourceSizeBytes": 262144,
+      "authorSolutionFile2CompilerId": {
+        "$solution": "python3_7_3"
+      },
+      "checkerSettings": {
+        "processEnvironment": {},
+        "standardName": "cmp_file",
+        "type": "standard-checker",
+        "invocationLimits": {
+          "timeLimitMillis": 10000,
+          "idlenessLimitMillis": 10000,
+          "memoryLimit": 268435456,
+          "outputLimit": 268435456
+        }
+      },
+      "problemType": "problem-with-checker",
+      "testFileType": "text",
+      "generatorLaunchers": [],
+      "defaultLocale": "ru",
+      "fileSet": {
+        "inputFile": "input.txt",
+        "outputFile": "output.txt",
+        "redirectStdin": true,
+        "redirectStdout": true
+      }
+    }
